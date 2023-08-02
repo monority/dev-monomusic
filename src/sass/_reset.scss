@@ -1,0 +1,70 @@
+@use "variables" as v;
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: none;
+    scroll-behavior: smooth;
+    scrollbar-color: #8e8e8e #fff;
+    scrollbar-width: thin;
+    text-rendering: optimizeLegibility;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+
+
+}
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+body {
+
+    background: linear-gradient(117deg, rgb(31, 22, 22) 0%, rgb(25, 27, 41) 100%);
+    color: v.$color-white;
+    font-family: v.$font-heebo;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a {
+    font-family: v.$font-second;
+    color: v.$color-faded-lightgrey;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+p {
+    font-weight: 500;
+    font-size: v.$font-medium;
+    line-height: 2;
+    margin: 0;
+}
+
+.block {
+    @media screen and (min-width : v.$lg-breakpoint ) {
+        min-height: 70vh;
+    }
+    min-height: 60vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 110rem;
+    
+}

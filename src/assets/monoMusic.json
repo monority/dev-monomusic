@@ -1,0 +1,41 @@
+[
+  {
+    "id": "JBL",
+    "name": "Wave Flex",
+    "image": "https://fr.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw95b9b713/1.JBL_Wave%20Flex_Product%20Image_Hero%2001_White.png?sw=680&sh=680",
+    "price": 55.20,
+    "sell": 3,
+    "options": {
+      "batterylife": 25,
+      "bassBoost": true,
+      "db": 80,
+      "bluetooth": "5.2"
+    }
+  },
+  {
+    "id": "Jabra",
+    "name": "Elite 3",
+    "image": "https://www.mansworldindia.com/wp-content/uploads/2021/07/Jabra-Elite-85T-600x600.png",
+    "price": 73.99,
+    "sell": 5,
+    "options": {
+      "batterylife": 18,
+      "bassBoost": true,
+      "db": 75,
+      "bluetooth": "4.2"
+    }
+  },
+  {
+    "id": "JBL",
+    "name": "Tune 230",
+    "image": "https://mes-ecouteurs-bluetooth.fr/wp-content/uploads/2022/09/JBL-Tune-230NC-TWS-bleu-1024x1024.jpg",
+    "price": 85.99,
+    "sell": 10,
+    "options": {
+      "batterylife": 16,
+      "bassBoost": false,
+      "db": 78,
+      "bluetooth": "5.2"
+    }
+  }
+]

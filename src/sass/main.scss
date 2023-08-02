@@ -1,0 +1,142 @@
+@use "reset";
+@use "variables" as v;
+@import "mixin";
+@import "product";
+
+#home {
+    margin-top: 5rem;
+}
+
+
+.header {
+    h1 {
+        transition: color 0.2s ease-in-out;
+        cursor: pointer;
+        background: #848CC2;
+        background: linear-gradient(to right, #848CC2 0%, #7D5CA8 100%);
+        -webkit-background-clip: text;
+        background-clip:text;
+        -webkit-text-fill-color: transparent;
+        &:hover {
+            color: #a39fd6;
+        }
+    }
+}
+
+
+.icon-wrap {
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: v.$box-lightshadow;
+    background-color: #e6e6e6;
+    padding: 0.15rem 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #a39fd6;
+    }
+}
+
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.image-wrap {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 20rem;
+        height: 20rem;
+
+    }
+}
+
+.card-wrap {
+    background: v.$gradient-black;
+    width: 36rem;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: v.$box-shadow-dark;
+}
+
+.wrap {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    column-gap: 1rem;
+
+    p {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+
+    @media screen and (min-width : v.$lg-breakpoint) {
+        flex-direction: row;
+
+    }
+}
+
+.options-wrap {
+
+    row-gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    svg {
+        font-size: 3rem;
+        color: rgb(150, 150, 150);
+    }
+}
+
+.btn-wrap {
+    display: flex;
+    column-gap: 1rem;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+    color: rgb(187, 187, 223);
+}
+
+.btn {
+
+    color: white;
+    font-size: 2rem;
+    border: 0;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.393);
+}
+
+.btn-modify {
+    background-color: #3730A3;
+}
+
+.btn-delete {
+    background-color: #9F1239;
+}

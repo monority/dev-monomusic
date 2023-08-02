@@ -1,0 +1,62 @@
+// font responsive
+$font-xsmall:calc(0.75rem + 0.3vw);
+$font-small: calc(0.85rem + 0.3vw);
+$font-lsmall: calc(1rem + 0.3vw);
+$font-xsmedium: calc(1.1rem + 0.3vw);
+$font-smedium: calc(1.2rem + 0.3vw);
+$font-medium: calc(1.3rem + 0.3vw);
+$font-xmedium: calc(1.4rem + 0.3vw);
+$font-large: calc(1.5rem + 0.3vw);
+$font-xlarge:calc(1.6rem + 0.3vw);
+$font-xxlarge:calc(1.7rem + 0.3vw);
+$font-big:calc(1.85rem + 0.3vw);
+$font-xbig:calc(2.5rem + 0.3vw);
+$font-ultra:calc(3.5rem + 0.3vw);
+$font-mega:calc(4.2rem + 0.3vw);
+
+// font type
+$font-default: 'Mulish', sans-serif;
+$font-second: 'Inter', sans-serif;
+$font-third :'Nunito Sans', sans-serif;
+$font-fourth :'Be Vietnam Pro', sans-serif;
+$font-fifth :'Manrope',sans-serif;
+$font-heebo : 'Heebo', sans-serif;
+
+// colors
+$color-default: #2f2f2f;
+$color-darkgrey: #333333;
+$color-lightblack: #262626;
+$color-faded-grey: #464646e6;
+$color-faded-lightgrey: #686868;
+$color-gold: #fab804;
+$color-grey: #696969;
+$color-lightblue: #6bc5f8;
+$color-lightpurple: #ca31f0;
+$color-purple: #8000ff;
+$color-white: #f0f0f0;
+$color-blue: #3730A3;
+$color-red: #9F1239;
+$color-faded-purple:#a39fd6;
+
+//  colors-background
+$background-main-color: #efefef;
+$background-second-color: #f3d769;
+
+// gradient
+$gradient-black: linear-gradient(117deg, rgb(28, 28, 28) 0%, rgb(26, 24, 24) 100%);
+$gradient-blacklight: linear-gradient(117deg, rgb(37, 35, 35) 0%, rgb(39, 36, 36) 100%);
+
+
+// styling
+$border-classic : 0.2px #e0e0e083 solid;
+$border-hard : 0.5px #3232321b solid;
+$box-shadow : 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+$box-shadow-dark : 0 10px 15px -3px #000000a0, 0 4px 6px -4px #000000b0;
+$box-shadow-white : 0 10px 15px 2px #31313128, 0 4px 6px 2px #3030302a;
+$box-lightshadow : 0 5px 5px -3px #cdcdcd4d, 0 4px 3px -4px #d2d2d24d;
+
+// media querries
+$sm-breakpoint: 576px;
+$md-breakpoint: 768px;
+$lg-breakpoint: 992px;
+$xl-breakpoint: 1200px;
