@@ -1,6 +1,6 @@
 [
   {
-    "id": "JBL",
+    "id": "JBL 1",
     "name": "Wave Flex",
     "image": "https://fr.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw95b9b713/1.JBL_Wave%20Flex_Product%20Image_Hero%2001_White.png?sw=680&sh=680",
     "price": 55.20,
@@ -26,7 +26,7 @@
     }
   },
   {
-    "id": "JBL",
+    "id": "JBL 2",
     "name": "Tune 230",
     "image": "https://mes-ecouteurs-bluetooth.fr/wp-content/uploads/2022/09/JBL-Tune-230NC-TWS-bleu-1024x1024.jpg",
     "price": 85.99,
@@ -37,5 +37,47 @@
       "db": 78,
       "bluetooth": "5.2"
     }
+  },
+  {
+    "id": "Sennheiser",
+    "name": "HD SonicX",
+    "image": "https://www.sennheiser.com/images/HD-SonicX.png",
+    "price": 209.00,
+    "sell": 3,
+    "options": {
+      "batterylife": 32,
+      "bassBoost": true,
+      "db": 90,
+      "bluetooth": "5.1"
+    }
+  },
+  {
+    "id": "Sony",
+    "name": "XtraBeats",
+    "image": "https://www.sony.com/images/XtraBeats.png",
+    "price": 119.99,
+    "sell": 4,
+    "options": {
+      "batterylife": 24,
+      "bassBoost": true,
+      "db": 87,
+      "bluetooth": "5.0"
+    }
+  },
+  {
+    "id": "Beats",
+    "name": "PowerBass 500",
+    "image": "https://www.beatsaudio.com/images/PowerBass-500.png",
+    "price": 169.95,
+    "sell": 9,
+    "options": {
+      "batterylife": 26,
+      "bassBoost": true,
+      "db": 88,
+      "bluetooth": "5.2"
+    }
   }
+  
+  
+  
 ]
