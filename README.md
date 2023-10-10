@@ -27,7 +27,7 @@ npm i
 ```
 
 ```
-npx run dev
+npm run dev
 ```
 
   
@@ -36,4 +36,4 @@ npx run dev
 
 Technologies used in the project:
 
-*   React native
+*   React+Vite
