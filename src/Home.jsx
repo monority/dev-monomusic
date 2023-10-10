@@ -9,7 +9,7 @@ const Home = () => {
 
     const getEarbuds = async () => {
         try {
-            const response = await fetch("http://localhost:5500/monos");
+            const response = await fetch("http://localhost:8000/apimono/getAll");
             if (!response.ok) {
                 throw new Error("Erreur récupération données");
             }

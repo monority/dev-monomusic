@@ -57,7 +57,7 @@ const Product = () => {
         });
         if (!state) {
             try {
-                const response = await fetch("http://localhost:5500/monos", {
+                const response = await fetch("http://localhost:8000/apimono/create", {
                     method: "POST",
                     headers: { "Content-type": "application/json" },
                     body: JSON.stringify(updatedForm)
@@ -74,7 +74,7 @@ const Product = () => {
         }
         else {
             try {
-                const response = await fetch("http://localhost:5500/monos", {
+                const response = await fetch(`"http://localhost:5500/edit/${state.id}`, {
                     method: "PUT",
                     headers: { "Content-type": "application/json" },
                     body: JSON.stringify(updatedForm)
