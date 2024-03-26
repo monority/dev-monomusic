@@ -30,7 +30,7 @@ const Home = () => {
             const copyEarbuds = [...earbuds];
             copyEarbuds.splice(index, 1);
             setEarbuds(copyEarbuds);
-            const remove = await fetch(`http://localhost:5500/monos/${id}`, { method: 'DELETE' });
+            const remove = await fetch(`http://localhost:8000/apimono/delete/${id}`, { method: 'DELETE' });
             if (!remove.ok) {
                 throw new Error("Impossible de supprimer");
             }

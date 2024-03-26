@@ -30,7 +30,7 @@ const Product = () => {
             bluetooth: ""
         },
     })
-
+	
     const modifyDetect = () => {
         if (state) {
             setForm(state);
@@ -74,11 +74,12 @@ const Product = () => {
         }
         else {
             try {
-                const response = await fetch(`"http://localhost:5500/edit/${state.id}`, {
-                    method: "PUT",
-                    headers: { "Content-type": "application/json" },
-                    body: JSON.stringify(updatedForm)
-                })
+				const response = await fetch(`http://localhost:8000/apimono/edit/${state._id}`, {
+					method: "PUT",
+					headers: { "Content-type": "application/json" },
+					body: JSON.stringify(updatedForm)
+				})
+				
                 if (!response.ok) {
                     throw new Error("Erreur POST données");
                 }
